@@ -131,40 +131,7 @@ const App = () => {
       }
 
       getData();
-    }, []);
-
-    const isDone = async (id) => {
-      if (!id) {
-        return false;
-      }
-      let doneValue = false;
-      const jsonValue = await AsyncStorage.getItem('status');
-      if (jsonValue) {
-        const data = JSON.parse(jsonValue);
-        console.log(data.items.length);
-        for (let i = 0; i < data.items.length; i++) {
-          if (data.items[i].id == id) {
-            console.log('found');
-            const values = data.items[i].values;
-            for (const item of values) {
-              if (areDatePartEqual(new Date(item.date), new Date())) {
-                console.log('matched');
-                doneValue = item.done;
-                break;
-              }
-            }
-          }
-        }
-      }
-
-      return doneValue;
-    };
-
-    const ShowTick = (
-      <View>
-        <Text> Yes </Text>
-      </View>
-    );
+    }, []);    
 
     return (
       <ScrollView style={styles.container}>
@@ -206,6 +173,7 @@ const App = () => {
                   habitsData.habits.map((item, i) => (
                     <Cell
                       cellStyle="Basic"
+                      contentContainerStyle= {{marginTop: 5}}
                       cellContentView={
                         <View style={styles.homeCellContentMainView}>
                           <Text style={styles.titleText}>
