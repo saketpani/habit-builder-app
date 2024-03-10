@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Greeting Tests should match snapshot 1`] = `
+<div
+  className="css-view-175oi2r"
+  dir={null}
+  style={
+    {
+      "alignItems": "center",
+      "marginTop": "10px",
+    }
+  }
+>
+  <div
+    className="css-text-146c3p1"
+    dir="auto"
+    style={
+      {
+        "alignItems": "center",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "marginBottom": "5px",
+      }
+    }
+  >
+    Good Morning 
+    !
+  </div>
+</div>
+`;
+
+exports[`Quote Tests should match snapshot 1`] = `
+<div
+  className="css-view-175oi2r r-backgroundColor-10l5vfd r-borderRadius-1f0042m r-margin-jgcjvd r-marginTop-1bymd8e r-padding-zhp00w"
+  dir={null}
+>
+  <div
+    className="css-text-146c3p1 r-color-rrw0xu r-fontWeight-1kfrs79 r-marginBlock-1xuzw63 r-marginBottom-zl2h9q r-padding-zhp00w r-textAlign-q4m81j"
+    dir="auto"
+  >
+    "Happiness is a habit—cultivate it." - Elbert Hubbard
+  </div>
+</div>
+`;
+
+exports[`Separator Tests should match snapshot 1`] = `
+<div
+  className="css-view-175oi2r r-borderBottomColor-1qe2jo4 r-borderBottomWidth-qklmqi r-borderColor-1x2x8fc r-borderWidth-rs99b7 r-margin-1dhrvg0 r-marginBlock-bplmwz"
+  dir={null}
+/>
+`;

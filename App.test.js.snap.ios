@@ -1,0 +1,811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Tests should match snapshot 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flex": 1,
+        "marginHorizontal": 2,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "column",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {},
+              {
+                "backgroundColor": undefined,
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "paddingBottom": 5,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+              }
+            }
+          >
+            <RCTSafeAreaView>
+              <Text
+                allowFontScaling={true}
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "letterSpacing": -0.078,
+                    },
+                    {
+                      "color": "#444444",
+                    },
+                    {
+                      "alignItems": "center",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                    },
+                  ]
+                }
+              >
+                Awesome Habit
+              </Text>
+            </RCTSafeAreaView>
+          </View>
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {},
+                false,
+              ]
+            }
+          >
+            <View>
+              <View>
+                <RCTSafeAreaView
+                  style={
+                    [
+                      {
+                        "backgroundColor": "#FFF",
+                      },
+                      {
+                        "flexGrow": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "minHeight": 44,
+                          "paddingLeft": 15,
+                          "paddingRight": 20,
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "flexBasis": 0,
+                          "flexDirection": "row",
+                          "flexGrow": 1,
+                          "justifyContent": "center",
+                          "paddingVertical": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={true}
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "flexGrow": 1,
+                              "fontSize": 16,
+                              "letterSpacing": -0.32,
+                            },
+                            {
+                              "color": "#444444",
+                            },
+                            {
+                              "fontWeight": 600,
+                            },
+                          ]
+                        }
+                      >
+                        Awesome Habit - A Habit Tracker App
+                      </Text>
+                    </View>
+                  </View>
+                </RCTSafeAreaView>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 15,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <View>
+                <RCTSafeAreaView
+                  style={
+                    [
+                      {
+                        "backgroundColor": "#FFF",
+                      },
+                      {
+                        "flexGrow": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "minHeight": 44,
+                          "paddingLeft": 15,
+                          "paddingRight": 20,
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "flexBasis": 0,
+                          "flexDirection": "row",
+                          "flexGrow": 1,
+                          "justifyContent": "center",
+                          "paddingVertical": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={true}
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "flexGrow": 1,
+                              "fontSize": 16,
+                              "letterSpacing": -0.32,
+                            },
+                            {
+                              "color": "#444444",
+                            },
+                            {
+                              "fontWeight": 600,
+                            },
+                          ]
+                        }
+                      >
+                        App Version: 1.0.0
+                      </Text>
+                    </View>
+                  </View>
+                </RCTSafeAreaView>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 15,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                    {
+                      "flexGrow": 1,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "minHeight": 44,
+                        "paddingLeft": 15,
+                        "paddingRight": 20,
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "justifyContent": "center",
+                        "paddingVertical": 10,
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={true}
+                      numberOfLines={1}
+                      style={
+                        [
+                          {
+                            "flexGrow": 1,
+                            "fontSize": 16,
+                            "letterSpacing": -0.32,
+                          },
+                          {
+                            "color": "#444444",
+                          },
+                          {
+                            "fontWeight": 600,
+                          },
+                        ]
+                      }
+                    >
+                      Contact Email: xyz@gmail.com
+                    </Text>
+                  </View>
+                </View>
+              </RCTSafeAreaView>
+            </View>
+          </View>
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`About Tests should show appname 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flex": 1,
+        "marginHorizontal": 2,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "column",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {},
+              {
+                "backgroundColor": undefined,
+                "paddingBottom": 15,
+                "paddingTop": 15,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "paddingBottom": 5,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+              }
+            }
+          >
+            <RCTSafeAreaView>
+              <Text
+                allowFontScaling={true}
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "letterSpacing": -0.078,
+                    },
+                    {
+                      "color": "#444444",
+                    },
+                    {
+                      "alignItems": "center",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                    },
+                  ]
+                }
+              >
+                Awesome Habit
+              </Text>
+            </RCTSafeAreaView>
+          </View>
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {},
+                false,
+              ]
+            }
+          >
+            <View>
+              <View>
+                <RCTSafeAreaView
+                  style={
+                    [
+                      {
+                        "backgroundColor": "#FFF",
+                      },
+                      {
+                        "flexGrow": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "minHeight": 44,
+                          "paddingLeft": 15,
+                          "paddingRight": 20,
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "flexBasis": 0,
+                          "flexDirection": "row",
+                          "flexGrow": 1,
+                          "justifyContent": "center",
+                          "paddingVertical": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={true}
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "flexGrow": 1,
+                              "fontSize": 16,
+                              "letterSpacing": -0.32,
+                            },
+                            {
+                              "color": "#444444",
+                            },
+                            {
+                              "fontWeight": 600,
+                            },
+                          ]
+                        }
+                      >
+                        Awesome Habit - A Habit Tracker App
+                      </Text>
+                    </View>
+                  </View>
+                </RCTSafeAreaView>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 15,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <View>
+                <RCTSafeAreaView
+                  style={
+                    [
+                      {
+                        "backgroundColor": "#FFF",
+                      },
+                      {
+                        "flexGrow": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "minHeight": 44,
+                          "paddingLeft": 15,
+                          "paddingRight": 20,
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "flexBasis": 0,
+                          "flexDirection": "row",
+                          "flexGrow": 1,
+                          "justifyContent": "center",
+                          "paddingVertical": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={true}
+                        numberOfLines={1}
+                        style={
+                          [
+                            {
+                              "flexGrow": 1,
+                              "fontSize": 16,
+                              "letterSpacing": -0.32,
+                            },
+                            {
+                              "color": "#444444",
+                            },
+                            {
+                              "fontWeight": 600,
+                            },
+                          ]
+                        }
+                      >
+                        App Version: 1.0.0
+                      </Text>
+                    </View>
+                  </View>
+                </RCTSafeAreaView>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 15,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                    {
+                      "flexGrow": 1,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "minHeight": 44,
+                        "paddingLeft": 15,
+                        "paddingRight": 20,
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "justifyContent": "center",
+                        "paddingVertical": 10,
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={true}
+                      numberOfLines={1}
+                      style={
+                        [
+                          {
+                            "flexGrow": 1,
+                            "fontSize": 16,
+                            "letterSpacing": -0.32,
+                          },
+                          {
+                            "color": "#444444",
+                          },
+                          {
+                            "fontWeight": 600,
+                          },
+                        ]
+                      }
+                    >
+                      Contact Email: xyz@gmail.com
+                    </Text>
+                  </View>
+                </View>
+              </RCTSafeAreaView>
+            </View>
+          </View>
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
